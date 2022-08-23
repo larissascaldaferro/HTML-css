@@ -104,6 +104,7 @@ aside{ border-radius: 10px }
 
  aside >ul { columns: 2;}
 
- footer >h5{text-align: justify;}
+ footer >h5{text-align: justify;
+text-align: center;}
  
 
