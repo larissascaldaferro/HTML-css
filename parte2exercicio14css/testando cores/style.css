@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+        background-image: linear-gradient(to right, rgba(92, 126, 220, 0.31),rgba(18, 12, 199, 0.419));
+         }
+p {
+    text-align: justify;
+}
+main {
+    background-color: aliceblue;
+    width: 600px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(16, 46, 135);
+    text-align: center;
+}
+h2{ 
+    color:rgb(7, 12, 114);
+    
+}

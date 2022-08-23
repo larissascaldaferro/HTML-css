@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>grouping tangs</title>
+     <style>
+        body{
+            background-color:dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{background-color: white;
+            padding: 10px;
+            margin:10px;
+
+        }
+        nav{
+            background-color: dimgrey;
+            padding:3px;
+            box-shadow: 1px 1px 1px 0px black;
+        }
+        nav > a:hover {text-decoration: underline;
+
+        }
+        nav > a {
+            text-decoration: none;/* traço em baixo do link so aparece quando passa o mause em cima    m,m, */
+            color: aliceblue;
+            font-weight: bold;/* aumento da letra "link"*/
+            margin-right: 30px;/* largura do link*/
+        }
+        main{
+            background-color: white;
+            padding: 10px; /*um espaço da borda*/
+            margin: 10px;/* da um espaço da caixa a para o main*/
+            border-radius: 10px 30px;
+           
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside /* filha de article*/ { background-color: rgba(42, 54, 54, 0.532);
+
+        }
+
+        footer{
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 4px; /* aumento da cor preta*/
+            margin: 0px;
+
+        }
+        footer > p{ /* p é o filho de footer*/
+           margin:0px;
+        }
+
+     </style>
+<head>
+<body>
+    <header>
+        <h1>Meu Saite</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Politicas</p>
+        <article>
+            <h2>Notícias Sobre o Brasil</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima ipsam magnam eos ab odit necessitatibus debitis adipisci, maiores voluptatum, amet tenetur, ipsum aperiam. Necessitatibus delectus commodi repellendus illum perferendis.
+            <aside>
+                <p>artigo escrito por Larissa</p>
+            </aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por curso em video!</p>
+    </footer>
+  
+</body>

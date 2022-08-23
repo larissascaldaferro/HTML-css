@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'oi';
+    src: url(idroid/IDroid\ Bold\ Italic.otf);
+}
+body {font-family: arial;
+     text-align: justify;
+  
+
+    }
+
+    img{width: 100%;}
+    footer{background-color: #0A4624;
+         color: aliceblue;
+        text-align: center;}
+
+         
+    header {background-image: linear-gradient(to bottom,#2CA262,#0A4624);
+        min-height: 150px;
+        padding-top: 20px;
+    }
+
+    header > h1{text-align: center;
+    color:aliceblue}
+    
+    header > p{ text-align: center;
+    color: aliceblue;
+    max-width: 500px;
+    margin: auto;
+}
+
+    header >nav> a{color: #2FA866;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:.5s ;
+}
+    
+   
+
+     main>article> h1{font-family: 'oi';
+     color:#063D1E ;}
+    main > article>p {text-indent: 20px;}
+
+    
+ 
+.basico{color:#0ee46b;}
+
+main{   min-width: 300px;
+    max-width: 800px;
+   margin: auto;}
+
+
+
+   main img.pequena{width: 50%;
+              margin: auto;
+            display: block;}
+
+main > img{width: 100%;}
+main > article>h3{font-family: 'oi';
+     color: #1A5C37;
+     background-image: linear-gradient(to left,#d9f6e601, #87E2B0);
+     }
+     main > article>p >a{color:#1A5C37;
+    background-color: #87E2B0;
+    
+     }
+
+    main  > article >p > a::after{ content:'➔'; color: black;}
+
+    main>h3{font-family:'oi';}
+    
+       aside {background-color: rgba(0, 255, 255, 0.459);}
+
+    aside >h3{color: aliceblue;
+    background-color: #1A5C37;
+}
+
+div.video{background-color: #0A4624;
+    margin: 0px -20px 30px -20px;
+   position: relative;
+   padding-bottom: 90%;
+} 
+   div.video > iframe{
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     width: 90%;
+     height: 90%;
+     
+
+   }
+ 
+aside >p{text-indent: 20px;}
+
+aside >p>a{color: #1A5C37;
+    text-decoration: underline ; 
+
+}
+aside{ border-radius: 10px }
+ aside> h3{border-radius: 10px}
+
+ aside >ul { columns: 2;}
+
+ 
+
