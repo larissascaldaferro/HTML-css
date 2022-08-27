@@ -1,2 +1,4 @@
 # HTML-css
- html e css do curso em video
+ html e css aprendido no decorer do curso com o professor Gustavo Guanabara.
+ 
+ 
