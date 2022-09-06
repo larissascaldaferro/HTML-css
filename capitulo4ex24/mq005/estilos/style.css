@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*configuração para computador(tela mais grande)*/  
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(148, 148, 148);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+i#burguer {/*menu*/
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;/*vira uma monzinha quando passa o mause em cima no computador(monzinha nao é o menu e sim o negocio do compuador)*/
+}
+
+i#burguer:hover {/*quando passa o mause em cima*/
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;/*esconde os links e so deixa o menu,porem n é so isso para os links aparecer de acordo com o tamanho da tela(precisa tambem de javascript)*/
+}
+
+menu > ul {
+    list-style-type: none;/*para tirar as bolinhas*/
+}
+
+menu > ul > li > a {
+    display: block; 
+    padding: 10px;
+    text-decoration: none;/*tirar a linha em baixo do link*/
+    text-align: center; /*para ficar no meio*/
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray; /*quando passar o mause em cima*/
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;/*texto ficar no meio*/
+    margin-top: 10px;/* uma distancia do heder*/
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px; /*distancia entre o p*/
+}
+
+article > p {
+    text-align: justify;/*para o texto ficar alinhado*/
+    margin-bottom: 20px; /*espaçamento de cada paragrafo em baixo*/
+    text-indent: 20px;/*espaço no começo do pagrafo*/
+}
