@@ -24,7 +24,6 @@ section#img01{
 section.imagem{
     background-size: cover;
     height: 300px;
-    width: 100%;
     background-attachment: fixed;
     background-position: right bottom;
 }
