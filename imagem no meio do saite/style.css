@@ -12,14 +12,16 @@ h1{
 section{
     
     text-align: justify;
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-left: 30px;
-    padding-bottom: 7vw;
+    padding-bottom: 3vw;
+    margin-right: 20px;
 }
 
 section#img01{
-    background-image: url(background002.jpg);
+    background-image: url(background001.jpg);
     margin-left: 30px;
+    
 }
 section.imagem{
     background-size: cover;
@@ -28,8 +30,6 @@ section.imagem{
     background-position: right bottom;
 }
 
-section.imagem>p{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.434);
-    display: inline-block;
-}
+
+    
+
