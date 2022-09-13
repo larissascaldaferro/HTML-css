@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Combo&family=Lobster&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Combo&family=Lobster&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+header>h1{
+    font-family: 'Abril Fatface', cursive;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    font-size: 6vw ;
+}
+a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;  
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ 
+main{
+    font-size: 3vw;
+}
+article>p{
+   padding-top: 10vh;
+   padding-bottom: 2vh;
+   padding-left: 5vh;
+   line-height: 2em;
+   font-family: 'Sriracha', cursive;
+
+}
+
+div.imagem{
+    width: 100vw;
+    height: 70vw;
+    background: url(background001.jpg) center right no-repeat fixed;
+    background-size: cover;
+   
+}
+div>p.texto{
+    color: white;
+    background-color:rgba(54, 54, 54, 0.605) ;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 1vh;
+    margin-left: 40px;
+    margin-top: 70px;
+    line-height: 2em;
+    font-family: 'Sriracha', cursive;
+    display: inline-block;
+    
+    
+}
+
+div.imagemdois{
+    width: 100vw;
+    height: 70vw;
+    background: url(background002.jpg) center right no-repeat fixed;
+    background-size: cover;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+h1{
+    font-variant: small-caps;
+    text-align: center;
+}
+
+section{
+    
+    text-align: justify;
+    padding-top: 5vh;
+    padding-left: 30px;
+    padding-bottom: 7vw;
+}
+
+section#img01{
+    background-image: url(background002.jpg);
+    margin-left: 30px;
+}
+section.imagem{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+section.imagem>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.434);
+    display: inline-block;
+}
