@@ -1,0 +1,10 @@
+@charset "UTF_8";
+body{
+    width: 100%;
+  }
+  img{
+    width: 250px;
+  }
+::-webkit-scrollbar{
+    display: none;
+}
