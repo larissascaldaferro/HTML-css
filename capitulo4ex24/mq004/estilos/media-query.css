@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Todas as demais mídias */
+/* Todas as demais mídias(pequenas configuraçãoes para cas=da uma das midias)*/
 
 /* Typical Device Breakpoints
 ------------------------------
@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px
     }
 
     body {
-        background-image: url(../imagens/back-print.jpg); /* desnecessário */
+        background-image: url(../imagens/back-print.jpg); /* desnecessário pq para imprimir esta imagem nao imprimi(background n imprimi)*/
     }
 
     main {

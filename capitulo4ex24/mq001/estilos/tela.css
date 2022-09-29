@@ -2,11 +2,32 @@
 
 /*estilos para tela*/
 
-*{  margin: 0px;
+*{  margin:0px;
     padding: 0px;
 }
 
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+  
+}
+
+header{
+    background-color: grey;
+}
+header>h1{
+    text-align: center;
+}
+
+article{
+    width: 700px;
+    margin: auto;
+    display: block;
+   
+}
+p{
+    display: inline-block;
+    text-align: justify;
+    
+    
 }

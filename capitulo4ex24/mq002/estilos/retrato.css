@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/*aparelho em pe*/
+/*aparelho em pe(portrait)*/
 
 body{
     background: url(../cev-portrait.jpg);
-    background-position: left bottom ;
+    background-position:  left bottom;
 
 }
 html,body{
