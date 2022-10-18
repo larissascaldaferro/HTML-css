@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#conteiner{
+    width: 720px;
+    margin: 0 auto;
+}
+
+#marca{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: grey;
+}
+
+#conteudo{
+    width: 500px;
+    float: right;
+}
+.um{
+    float: left;
+    width: 300px;
+    border: 1px solid navy;
+}
+.dois{
+    float: right;
+    width: 180px;
+    border: 1px solid darkmagenta;
+}
+#home{
+    width: 200px;
+    float: left;
+    border: 2px solid forestgreen;
+}
+
+#rodape{
+    border: 1px solid black;
+    clear: both;
+}

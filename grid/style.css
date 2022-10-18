@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+div{
+    padding: 10px;
+    border: 2px solid black;
+    background: #bdbdbd;
+}
+.conteiner{
+    display: grid;
+    
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+   grid-template-areas: 'box-1 box-2 box-2'
+                        ' box-1 box-3 box-3'
+                        ' box-1 box-4 box-4'
+   ;
+}
+.caixa1{
+  grid-area: box-1;
+}
+.caixa2{
+    grid-area: box-2;
+}
+.caixa3{
+    grid-area: box-3;
+}
+
+.caixa4{
+    grid-area: box-4;
+}
