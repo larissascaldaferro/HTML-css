@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.conteiner{
+    width: 98%;
+    border: 2px solid black;
+    padding: 5px;
+}
+body{
+    background-color: brown;
+}
+.elemento{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    transition: all 2s linear 1s;
+}
+
+.elemento:hover{
+    border-radius: 50%;
+    height: 300px;
+    transition: all 2s linear 1s;
+}
+

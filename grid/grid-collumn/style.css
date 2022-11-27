@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div{
+  
+    background-color: gray;
+    border: 1px solid red;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+
+#um{
+    grid-column: 1/4;
+}
+
+#dois{
+    grid-column: 2/4;
+}
+
+#tres{
+    grid-column: 3/4;
+}
+
