@@ -3,7 +3,7 @@
 @keyframes animacao{
 
     from {transform: rotate(0deg);}
-    to {transform: rotate(60deg);}
+    to {transform: rotate(360deg);}
 }
 
 .conteiner{
@@ -13,5 +13,7 @@
     animation-name: animacao;
     animation-duration: 2s;
     animation-iteration-count: 2;
+    animation: animacao 1.5s linear 3 alternate;
+    
     
 }
